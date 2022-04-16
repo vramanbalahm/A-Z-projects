@@ -34,8 +34,8 @@ plt.ylabel('Salary')
 plt.show()
 
 print(regressor.predict([[12]]))
-print(regressor.coef_)
-print(regressor.intercept_)
+#print(regressor.coef_)
+#print(regressor.intercept_)
 
 #finally the value of the salary is 
 salary = regressor.coef_ * 12 + regressor.intercept_
